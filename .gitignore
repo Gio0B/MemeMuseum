@@ -1,0 +1,51 @@
+
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Databases
+*.sqlite
+*.sqlite3
+*.db
+*.sqlite-wal
+*.sqlite-shm
+
+# User uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Build output
+dist/
+dist-ssr/
+build/
+coverage/
+
+# Test results
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+playwright/.auth/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Local configuration
+*.local
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.swp

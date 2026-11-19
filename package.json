@@ -1,0 +1,15 @@
+{
+  "name": "meme-museum",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A full-stack web application for sharing, discovering, rating, and discussing memes.",
+  "author": "Gio0B",
+  "scripts": {
+    "setup": "npm --prefix backend ci && npm --prefix frontend ci && npm --prefix test ci",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "lint": "npm --prefix frontend run lint",
+    "test:e2e": "npm --prefix test run test"
+  }
+}
